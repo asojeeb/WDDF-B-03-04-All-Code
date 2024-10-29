@@ -1,0 +1,71 @@
+.welcome{
+	background-color: #00e600;
+	color: white;
+}
+
+.downloadapps{
+	background-color: red;
+	color: white;
+}
+
+.badda{
+	background-color: #00e600;
+	color: white;
+	font-size: 40px;
+}
+
+.manubar{
+	background-color: #00e600;
+	color: white;
+
+
+}
+.marquee{
+	background-color: red;
+	color: white;
+}
+.independent{
+	background-color: brown;
+	color: white;
+	margin: 10px;
+}
+
+.banner1{
+	margin: 0px;
+	
+}
+.teacher1{
+	margin-right: 0px;
+}
+
+.president{
+	background-color: #00e600;
+	color: white;
+	font-size: 30px;
+
+
+}
+.aboutschool{
+	background-color: #00e600;
+	color: white;
+	font-size: 30px;
+}
+.shift{
+	background-color: #00e600;
+	color: white;
+
+
+
+}
+.button{
+	background-color: white;
+	font-color: green;
+
+
+}
+.useful-link{
+	background-color: #33ff33;
+	font-color: white;
+
+
+}

@@ -1,0 +1,13 @@
+
+.product-item{
+    overflow: hidden ;
+}
+
+.product-item img{
+    cursor: pointer;
+    transition:1s linear;
+    
+}
+.product-item img:hover{
+    transform:scale(1.5) ;
+}

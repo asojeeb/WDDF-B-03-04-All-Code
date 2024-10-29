@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Home page- Ecommerce site</title>
+    <meta charset="utf-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="favicon" href="assets/img/favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+	<!--nav section start-->
+    <nav class="navbar navbar-expand-lg">
+		<div class="container">
+		  <a class="navbar-brand" href="index.html">
+			<img src="assets/img/logo.png" alt="Ghorer Bazar" title="Ghorer Bazar">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="mynavbar">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 fw-semibold">
+			  <li class="nav-item">
+				<a class="nav-link active" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="products.html">Products</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" href="products-details.html">Product details</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="login.html">Login</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="signup.html">Signup</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  More
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">My Account</a></li>
+				  <li><a class="dropdown-item" href="#">wishlist</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">login</a></li>
+				  <li><a class="dropdown-item" href="#">signup</a></li>
+				</ul>
+			  </li>
+			</ul>
+			<form class="d-flex" role="search">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+			<a href="" class="btn btn-outline-success ms-2 mt-2 mt-lg-0 text-center">Add To Card</a>
+		  </div>
+		</div>
+	  </nav>
+	<!--nav section start-->
+
+	<!--signup section start-->
+	<section id="signup py-3 py-3" class="bg-info-subtle" >
+		<section class="container py-3">
+			<div class=" col-12 text-center mb-4">
+				<h1>Sign Up Here</h1>
+			</div>
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+				  <li class="breadcrumb-item"><a href="#">Home</a></li>
+				  <li class="breadcrumb-item active" aria-current="page">Signup</li>
+				</ol>
+			</nav>
+			<div class="row ">
+				<div class="col-12 col-lg-7 offset-2">
+					<form class="row g-3">
+						<div class="col-md-6">
+							<label for="inputFirstName" class="form-label ">First Name</label>
+							<input type="text" name="fname" class="form-control" id="inputFirstName" placeholder="First Name">
+						  </div>
+						  <div class="col-md-6">
+							<label for="inputLastName" class="form-label">Last Name</label>
+							<input type="text" name="lname"class="form-control" id="inputLastName" placeholder="Last Name">
+						  </div>
+						<div class="col-md-6">
+						  <label for="inputEmail4" class="form-label">Email</label>
+						  <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+						</div>
+						<div class="col-md-6">
+							<label for="inputPhone" class="form-label">Phone Number</label>
+							<input type="password" name="mobile" class="form-control" id="inputPhone" placeholder="Phone Number">
+						  </div>
+						  <div class="col-md-6">
+							<label for="inputUsername" class="form-label">Username</label>
+							<input type="password" name="Username" class="form-control" id="inputUsername" placeholder="User Name">
+						  </div>
+						<div class="col-md-6">
+						  <label for="inputPassword4" class="form-label">Password</label>
+						  <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+						</div>
+						<div class="col-12 mb-5">
+						  <button type="submit" class="btn btn-outline-primary w-100" onclick="alert('Are You Sure!')">Sign in</button>
+						</div>
+					  </form>
+				</div>
+			</div>
+		</section>
+	</section>
+	<!--signup section end-->
+
+	<!--footer section start-->
+	<footer id="footer" class="py-4 bg-dark text-white">
+		<section class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-content text-center">
+						<p class="m-0 lead">&copy; 2024 <a href="" class="text-decoration-none text-reset" >WDDF 3&4.</a> All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+	<!--footer section end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="assets/js/default.js"></script>
+  </body>
+</html>

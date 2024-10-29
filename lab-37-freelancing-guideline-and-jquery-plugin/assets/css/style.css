@@ -1,0 +1,60 @@
+
+
+.product-item{
+    overflow: hidden ;
+}
+
+.product-item img{
+    cursor: pointer;
+    transition:1s linear;
+    
+}
+.product-item img:hover{
+    transform:scale(1.5) ;
+}
+
+.slick-prev {
+    left: 50px;
+    z-index: 1;
+   
+}
+
+.slick-next {
+    right: 50px;
+    z-index: 1;
+}
+
+.slick-dots {
+
+    bottom: 30px;
+}
+.slick-dots li button:before{
+    opacity: 1;
+    color: aqua;
+    font-size: 10px;
+
+
+}
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: rgb(223, 233, 85);
+    font-size: 10px;
+
+
+}
+
+.slick-slide{
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: aqua;
+
+
+}
+.slick-prev:before, .slick-next:before{
+    font-size: 30px;
+    color: aqua;
+    opacity: .75px;
+    font-family: 'slick';
+
+}
